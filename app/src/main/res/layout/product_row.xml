@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        app:cardMaxElevation="20dp"
+        app:cardCornerRadius="5dp"
+        app:cardPreventCornerOverlap="true"
+        android:id="@+id/cv"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/image_placeholder"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/ivImage"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp" />
+
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/gl"
+                android:layout_alignTop="@+id/ivImage"
+                android:layout_toRightOf="@+id/ivImage"
+                android:layout_toEndOf="@+id/ivImage"
+                android:paddingLeft="10dp"
+                android:layout_width="275dp">
+
+                <TextView
+                    android:text="Product Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvName"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+                <TextView
+                    android:text="No description"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/tvDesc"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="14sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_height="38dp" />
+
+            </LinearLayout>
+
+            <Button
+                android:text="Add to Cart"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/btnCart"
+                android:background="@drawable/button_round_corners"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp"
+                android:layout_marginRight="34dp"
+                android:layout_marginEnd="34dp"
+                android:layout_below="@+id/gl"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:text="R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:paddingTop="15dp"
+                android:textColor="@android:color/black"
+                android:layout_alignBaseline="@+id/btnCart"
+                android:layout_alignBottom="@+id/btnCart"
+                android:layout_toRightOf="@+id/ivImage"
+                android:layout_toEndOf="@+id/ivImage"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp" />
+
+            <TextView
+                android:text="Price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvPrice"
+                android:paddingTop="15dp"
+                android:textColor="@android:color/black"
+                android:layout_alignBaseline="@+id/textView11"
+                android:layout_alignBottom="@+id/textView11"
+                android:layout_toRightOf="@+id/textView11"
+                android:layout_toEndOf="@+id/textView11" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

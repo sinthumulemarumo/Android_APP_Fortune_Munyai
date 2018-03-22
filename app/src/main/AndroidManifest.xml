@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.fortune.pnpstore">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="@android:icon">
+        <activity
+            android:name="com.example.fortune.pnpstore.IndexActivity"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.fortune.pnpstore.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.fortune.pnpstore.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.fortune.pnpstore.SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+
+            android:name="com.example.fortune.pnpstore.ForgotPassActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.fortune.pnpstore.PaypalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.fortune.pnpstore.CardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.fortune.pnpstore.ThanksActivity"
+            android:label="@string/title_activity_thanks"
+            android:parentActivityName="com.example.fortune.pnpstore.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fortune.pnpstore.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.fortune.pnpstore.TrackOrderActivity"
+            android:label="@string/title_activity_track_order"
+            android:parentActivityName="com.example.fortune.pnpstore.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fortune.pnpstore.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.fortune.pnpstore.DealActivity"
+            android:label="@string/title_activity_deal"
+            android:parentActivityName="com.example.fortune.pnpstore.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fortune.pnpstore.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

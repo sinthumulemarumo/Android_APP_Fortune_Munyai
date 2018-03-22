@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_card"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.fortune.pnpstore.CardActivity">
+
+    <!--<TextView
+        android:text="Card number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:id="@+id/Cardnotxt"
+        android:layout_below="@+id/edCardHolder"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/Exmonth"
+        android:layout_below="@+id/Expirydate"
+        android:layout_alignLeft="@+id/Cardtypetxt"
+        android:layout_alignStart="@+id/Cardtypetxt" />
+
+    <TextView
+        android:text="Year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Exyear"
+        android:layout_above="@+id/spMonth"
+        android:layout_alignLeft="@+id/spYear"
+        android:layout_alignStart="@+id/spYear" />
+
+    <Button
+        android:text="Pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPay"
+        android:layout_below="@+id/edCVC"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginTop="9dp"
+        android:textColor="@color/white" />
+
+    <CheckBox
+        android:text="Save card details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Cardsave"
+        android:layout_alignBottom="@+id/btnPay"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edCVC"
+        android:layout_below="@+id/Cvctxt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Last 3 digits on the back of the card" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spMonth"
+        android:layout_below="@+id/Exmonth"
+        android:layout_alignLeft="@+id/Exmonth"
+        android:layout_alignStart="@+id/Exmonth" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spYear"
+        android:layout_below="@+id/Exyear"
+        android:layout_toRightOf="@+id/Cardnotxt"
+        android:layout_toEndOf="@+id/Cardnotxt"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp" />
+
+    <TextView
+        android:text="Card type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Cardtypetxt"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/Cardholdertxt"
+        android:layout_alignEnd="@+id/Cardholdertxt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edCardHolder"
+        android:layout_below="@+id/Cardholdertxt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Expiry date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/Expirydate"
+        android:layout_below="@+id/edCardNum"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="CVC number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Cvctxt"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/spMonth" />
+
+    <TextView
+        android:text="Card holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Cardholdertxt"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/spCard" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spCard"
+        android:layout_below="@+id/Cardtypetxt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edCardNum"
+        android:layout_below="@+id/Cardnotxt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />-->
+
+    <TextView
+        android:text="Card number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:id="@+id/Cardnotxt"
+        android:layout_below="@+id/Cardholdername"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="Month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/Exmonth"
+        android:layout_below="@+id/Expirydate"
+        android:layout_alignLeft="@+id/Cardtypetxt"
+        android:layout_alignStart="@+id/Cardtypetxt"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="Year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Exyear"
+        android:layout_above="@+id/spinnerMonth"
+        android:layout_alignLeft="@+id/spinnerYear"
+        android:layout_alignStart="@+id/spinnerYear"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:text="Pay"
+        android:id="@+id/btnPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Cvc"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="9dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <CheckBox
+        android:text="Save card details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Cardsave"
+        android:layout_alignBottom="@+id/btnPay"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/Cvc"
+        android:layout_below="@+id/Cvctxt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="3 digits back of the card" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerMonth"
+        android:layout_below="@+id/Exmonth"
+        android:layout_alignLeft="@+id/Exmonth"
+        android:layout_alignStart="@+id/Exmonth" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerYear"
+        android:layout_below="@+id/Exyear"
+        android:layout_toRightOf="@+id/Cardnotxt"
+        android:layout_toEndOf="@+id/Cardnotxt"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp" />
+
+    <TextView
+        android:text="Card type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Cardtypetxt"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/Cardholdertxt"
+        android:layout_alignEnd="@+id/Cardholdertxt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/Cardholdername"
+        android:layout_below="@+id/Cardholdertxt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Name" />
+
+    <TextView
+        android:text="Expiry date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/Expirydate"
+        android:layout_below="@+id/Cardno"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="CVC number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Cvctxt"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/spinnerMonth"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="Card holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Cardholdertxt"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/spinnercardtype"
+        android:textColor="@android:color/black" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnercardtype"
+        android:layout_below="@+id/Cardtypetxt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/Cardno"
+        android:layout_below="@+id/Cardnotxt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Card number" />
+
+</RelativeLayout>

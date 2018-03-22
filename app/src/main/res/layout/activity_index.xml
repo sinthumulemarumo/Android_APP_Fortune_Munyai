@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fortune.pnpstore.IndexActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to PnP online store"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#e3141e"
+        android:layout_marginTop="48dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/YarbirdLogo"
+        android:layout_width="276dp"
+        android:layout_height="158dp"
+        android:src="@drawable/logopnp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginRight="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/loginReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="15sp"
+        android:textColor = "#e3141e"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="40dp"
+        android:paddingRight="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="133dp"
+        android:layout_marginLeft="220dp"
+        android:layout_below="@id/title" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:textSize="15sp"
+        android:textColor = "#e3141e"
+        android:background="@color/colorAccent"
+        android:paddingLeft="40dp"
+        android:paddingRight="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="15dp"
+         />
+
+
+
+</RelativeLayout>

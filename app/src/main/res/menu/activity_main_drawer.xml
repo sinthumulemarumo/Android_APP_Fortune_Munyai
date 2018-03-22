@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/homeblack"
+            android:title="Home"
+            />
+        <item
+            android:id="@+id/nav_foods"
+            android:icon="@drawable/chicken_icon"
+            android:title="Food" />
+        <item
+            android:id="@+id/nav_drinks"
+            android:icon="@drawable/drinks_icon"
+            android:title="Drinks" />
+        <item
+            android:id="@+id/nav_electronics"
+            android:icon="@drawable/phone"
+            android:title="Electronics" />
+        <item
+            android:id="@+id/nav_fresh_food"
+            android:icon="@drawable/apple"
+            android:title="Freshfood" />
+        <item
+            android:id="@+id/nav_deals"
+            android:icon="@drawable/deals"
+            android:title="Deals" />
+    </group>
+
+    <item android:title="Account Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

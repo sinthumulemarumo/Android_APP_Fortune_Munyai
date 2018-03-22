@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fortune.pnpstore.ForgotPassActivity">
+
+    <TextView
+        android:id="@+id/FPTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot my Password"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/usernameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/FPTitle"
+        android:hint="Username"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/newPasswordET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameET"
+        android:layout_marginTop="8dp"
+        android:hint="New Password"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/reenterNewPasswordET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newPasswordET"
+        android:layout_marginTop="8dp"
+        android:hint="Enter new Password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/setAsNewPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set new password"
+        android:textSize="15sp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_centerHorizontal="true"
+        android:textColor = "#00B16A"
+        android:layout_below="@id/reenterNewPasswordET"
+        android:background="@drawable/button_round_corners"
+        android:layout_marginTop="14dp"
+        android:clickable="true"/>
+
+    <Button
+        android:id="@+id/returnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return to Login Page"
+        android:textSize="15sp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_centerHorizontal="true"
+        android:textColor = "#00B16A"
+        android:layout_below="@id/setAsNewPassword"
+        android:background="@drawable/button_round_corners"
+        android:layout_marginTop="20dp"
+        android:clickable="true"/>
+</RelativeLayout>

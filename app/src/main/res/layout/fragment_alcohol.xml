@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fortune.pnpstore.Fragments.AlcoholFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!--<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/LinearList"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="167dp"
+            app:srcCompat="@drawable/rum"
+            android:id="@+id/ibRum"
+            android:layout_marginBottom="5dp"
+            />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="167dp"
+            app:srcCompat="@drawable/beer"
+            android:id="@+id/ibBeer"
+            android:layout_marginBottom="5dp"
+            />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="167dp"
+            app:srcCompat="@drawable/whisky"
+            android:id="@+id/ibWhisky"
+            android:elevation="0dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="167dp"
+            app:srcCompat="@drawable/vodka"
+            android:id="@+id/ibVodka"
+            android:layout_marginBottom="5dp"
+            />
+
+
+
+    </LinearLayout>-->
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvProduct"
+        android:scrollbars="none" />
+</LinearLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fortune.pnpstore.SignUpActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:textSize="50sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Firstname"
+        android:layout_below="@+id/title"/>
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lastname"
+        android:layout_below="@+id/firstname"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/lastname"
+        android:layout_alignRight="@+id/title"
+        android:layout_alignEnd="@+id/title"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/username"
+        android:layout_alignRight="@+id/title"
+        android:layout_alignEnd="@+id/title"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/mobilePhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/email"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-Mail Address"
+        android:layout_below="@id/password"
+        android:layout_marginTop="8dp"/>
+
+
+
+    <Button
+        android:layout_width="220sp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="15sp"
+        android:textColor = "#e3141e"
+        android:background="@color/colorAccent"
+        android:id="@+id/createAccountButton"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_below="@+id/mobilePhone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="75dp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <Button
+        android:id="@+id/loginReturn"
+        android:layout_width="220sp"
+        android:layout_height="wrap_content"
+        android:text="Return to Login "
+        android:textSize="15sp"
+        android:textColor = "#e3141e"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_below="@+id/createAccountButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="75dp"
+        android:layout_alignRight="@+id/createAccountButton"
+        android:layout_alignEnd="@+id/createAccountButton" />
+
+    <ImageButton
+        android:src="@mipmap/ic_launcher1"
+        android:id="@+id/usernameHelpButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:adjustViewBounds="true"
+
+        android:layout_alignTop="@+id/username"
+        android:layout_toRightOf="@+id/username"
+        android:layout_toEndOf="@+id/username" />
+
+    <ImageButton
+        android:src="@mipmap/ic_launcher1"
+        android:id="@+id/passwordHelpButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:adjustViewBounds="true"
+        android:layout_alignTop="@+id/password"
+        android:layout_toRightOf="@+id/password"
+        android:layout_toEndOf="@+id/password" />
+
+</RelativeLayout>
+

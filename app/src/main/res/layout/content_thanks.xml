@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_thanks"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.fortune.pnpstore.ThanksActivity"
+    tools:showIn="@layout/activity_thanks"
+
+    >
+
+    <TextView
+        android:text="Please enter delivery address :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize= "24sp"
+        android:textColor="@color/black_overlay"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp"
+        android:id="@+id/thanks"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter delivery details"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_below="@+id/thanks"
+        android:visibility="invisible"
+        android:id="@+id/Text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter address"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_below="@+id/Text"
+        android:id="@+id/location"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Contact no:"
+        android:inputType="number"
+        android:maxLength="10"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_below="@+id/location"
+        android:id="@+id/contact"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="extra information"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_below="@+id/contact"
+        android:id="@+id/time"/>
+
+    <TextView
+        android:text="Thanks for Ordering!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible"
+        />
+
+
+    <Button
+        android:text="Submit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnTrack"
+        android:layout_alignBaseline="@+id/btnHome"
+        android:layout_alignBottom="@+id/btnHome"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/button_round_corners"
+        android:textColor="@android:color/holo_blue_bright"
+        android:onClick="trackorderpage.xml" />
+
+    <Button
+        android:text="Go Home"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnHome"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="170dp"
+        android:background="@drawable/button_round_corners"
+        android:textColor="@android:color/holo_blue_bright" />
+
+</RelativeLayout>

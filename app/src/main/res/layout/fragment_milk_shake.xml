@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fortune.pnpstore.Fragments.MilkShakeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <!--<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linear_milk"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="263dp"
+            app:srcCompat="@drawable/bmilkshake"
+            android:id="@+id/imageView9"
+            android:layout_height="167dp" />
+
+        <TextView
+            android:text="Banana Milkshake - £1.99"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" />
+
+        <Button
+            android:text="+"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:id="@+id/button7"
+            android:layout_below="@+id/editText3"
+            android:layout_alignLeft="@+id/editText3"
+            android:layout_alignStart="@+id/editText3"
+            android:backgroundTint="@color/colorPrimary" />
+
+        <ImageView
+            app:srcCompat="@drawable/strawberry"
+            android:id="@+id/imageView10"
+            android:layout_height="167dp"
+            android:layout_width="265dp" />
+
+        <TextView
+            android:text="Strawberry Milkshake - £1.99"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8" />
+
+        <Button
+            android:text="+"
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:id="@+id/button12"
+            android:layout_below="@+id/editText3"
+            android:layout_alignLeft="@+id/editText3"
+            android:layout_alignStart="@+id/editText3"
+            android:backgroundTint="@color/colorPrimary" />
+
+        <ImageView
+            android:layout_width="260dp"
+            app:srcCompat="@drawable/oreo"
+            android:id="@+id/imageView11"
+            android:layout_height="167dp" />
+
+        <TextView
+            android:text="Oreo Milkshake - £1.99"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9" />
+
+        <Button
+            android:text="+"
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:id="@+id/button10"
+            android:layout_below="@+id/editText3"
+            android:layout_alignLeft="@+id/editText3"
+            android:layout_alignStart="@+id/editText3"
+            android:backgroundTint="@color/colorPrimary" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="167dp"
+            app:srcCompat="@drawable/chocolateshake"
+            android:id="@+id/imageView12" />
+
+        <TextView
+            android:text="Chocolate Milkshake - £1.99"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10" />
+
+        <Button
+            android:text="+"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:id="@+id/button11"
+            android:layout_below="@+id/editText3"
+            android:layout_alignLeft="@+id/editText3"
+            android:layout_alignStart="@+id/editText3"
+            android:backgroundTint="@color/colorPrimary" />
+    </LinearLayout>-->
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvProduct"
+        android:scrollbars="none" />
+</LinearLayout>
+
+

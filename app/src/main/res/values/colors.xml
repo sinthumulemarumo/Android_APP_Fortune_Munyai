@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1F3A93</color>
+    <color name="colorPrimaryDark">#1F3A93</color>
+    <color name="colorAccent">#4183D7</color>
+    <color name="MALACHITE">#00E640</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>
